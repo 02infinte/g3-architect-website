@@ -6,3 +6,89 @@ font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 228px;
+    width: 1920px;
+height: 1322px;
+
+}
+nav{
+    display: flex;
+    /* nav er vitorer h3 r ul er majhkhane gap create kore duijon k dui prante pathanor jonno */
+    justify-content: space-between;
+    /* space-between korar por Git Architecture lekhata niche neme gese.eder k horizontally align korar jonnno align-items: center;korbo */
+align-items: center;
+}
+.nav-title{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: "Work Sans";
+/* 1rem=16px */
+font-size: 2.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+nav > ul{
+    display: flex;
+}
+nav  li{
+    
+text-align: center;
+font-family: "Work Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+margin-right: 50px;
+list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+/* banner-styles */
+.banner-content{
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    /* left right margin soman kore rakhar jonno */
+    margin: 0 auto;
+}
+.banner-title{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: "Work Sans";
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner-description{
+    color: var(--Dark-03, #727272);
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.btn-primary{
+    border-radius: 8px;
+background: #FF900E;
+width: 180px;
+height: 64px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: none;
+border-radius: 5px;
+}
